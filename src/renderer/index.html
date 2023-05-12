@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>Screen recorder</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h2 id="title">📺️ Screen recorder 📺️</h2>
+    <button id="videoSelectBtn" class="button is-text">Seleziona input</button>
+    <hr />
+    <video></video>
+    <hr />
+    <h3 id="message"></h3>
+    <div class="actions">
+      <button id="startBtn" class="button is-primary">🎦️ Registra</button>
+      <button id="stopBtn" class="button is-warning">⏹️ Stop</button>
+    </div>
+    <script defer src="./renderer.js"></script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 38rem;
+  padding: 2rem 0;
+  text-align: center;
+  background-color: cornflowerblue;
+  color: white;
+}
+
+video {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  background-color: orange;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+
+.is-danger {
+  color: red;
+}

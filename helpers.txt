@@ -1,0 +1,30 @@
+
+
+  // App menu
+  const menu = [
+    ...(isLinux
+      ? [
+          {
+            label: app.name,
+            submenu: [
+              {
+                label: 'About',
+              },
+            ],
+          },
+        ]
+      : []),
+    {
+      role: 'fileMenu',
+      // label: 'File',
+      // submenu: [
+      //   {
+      //     label: 'Quit',
+      //     click: () => app.quit(),
+      //     accelerator: 'Ctrl+W',
+      //   },
+      // ],
+    },
+  ];
+
+  const mainMenu = Menu.buildFromTemplate(menu);
